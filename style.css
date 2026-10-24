@@ -1,0 +1,5 @@
+:root{--natt:#1b1446;--krem:#fff6e5;--sol:#ffd23f;--rosa:#ff4f9a}
+*{box-sizing:border-box}body{margin:0;background:var(--natt);color:var(--krem);font:17px/1.6 -apple-system,system-ui,sans-serif}
+main{max-width:680px;margin:0 auto;padding:48px 20px 64px}h1{color:var(--sol);font-size:34px;margin:0 0 8px}
+h2{font-size:21px;margin:32px 0 6px}a{color:var(--sol)}.muted{opacity:.7;font-size:15px}
+nav{margin-bottom:28px;font-weight:600}nav a{margin-right:16px}
