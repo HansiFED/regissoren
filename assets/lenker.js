@@ -1,9 +1,9 @@
-// Butikklenkene, samlet ett sted. Forsiden og /last-ned/ bruker begge denne fila.
-// Bytt APP_STORE når appen er publisert: App Store Connect > Appinformasjon > Apple ID (bare tallene).
+// Butikklenkene, samlet ett sted. Alle sidene bruker denne fila.
+// Når appen ligger ute: bytt tallene i APP_STORE med appens Apple ID (App Store Connect > Appinformasjon),
+// og sett APP_STORE_LIVE og PLAY_STORE_LIVE til true. Til da viser knappene "Kommer snart".
 window.REGISSOREN = {
   APP_STORE: 'https://apps.apple.com/no/app/regissoren/id0000000000',
   PLAY_STORE: 'https://play.google.com/store/apps/details?id=no.regissoren.app',
-  // Sett til true når appen ligger ute i butikken. Til da viser knappene "Kommer snart".
   APP_STORE_LIVE: false,
   PLAY_STORE_LIVE: false,
 };
